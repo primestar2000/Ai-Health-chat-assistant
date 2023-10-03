@@ -122,7 +122,7 @@ useEffect(()=>{
           }
           
           return () => {
-            // Cancel the request when the component unmounts
+            // Cancel the request when the component unmounts here
             controller.abort();
           };
           
