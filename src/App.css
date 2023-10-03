@@ -1,0 +1,19 @@
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  Thumb
+  ::-webkit-scrollbar-thumb {
+    background: #4a90e2; 
+    border-radius: 4px; 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3576c0; 
+  }
+  .border-gradient {
+    border-image: linear-gradient(to right, from-red-500 via-purple-500);
+    border-image-slice: 1;
+}

@@ -1,0 +1,15 @@
+/* Define the animation */
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Apply the animation to the .rotate class */
+  .rotate {
+    animation: rotate 5s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
