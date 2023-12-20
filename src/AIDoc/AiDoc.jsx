@@ -5,7 +5,7 @@ import bgImage from '../assets/images/bgImage.jpg';
 import Logo from '../assets/images/logo.png';
 import './helper.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane, faRobot, faSpinner, faUser, faVolumeHigh, faVolumeMute, faVolumeOff } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane, faRobot, faSpinner, faUser, faVolumeHigh, faVolumeMute, faVolumeOff, faVolumeXmark } from "@fortawesome/free-solid-svg-icons";
 import ChatReceiver from "../components/ChatReceiver";
 import ChatSender from "../components/ChatSender";
 import OpenAI from 'openai';
@@ -151,7 +151,7 @@ useEffect(()=>{
                                 </div>
                                 <div>
                                     <div onClick={()=>{setVoice(!voice)}}>
-                                        {voice ? <FontAwesomeIcon color='green' icon={faVolumeHigh} /> : <FontAwesomeIcon color='red' icon={faVolumeMute} />}
+                                        {voice ? <FontAwesomeIcon color='green' icon={faVolumeHigh} /> : <FontAwesomeIcon color='red' icon={faVolumeXmark} />}
                                     </div>
                                     
                                     
