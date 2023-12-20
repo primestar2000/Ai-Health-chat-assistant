@@ -1,11 +1,9 @@
 import React from 'react'
 import Mydata from "./assets/data";
 import './App.css'
-import Home from './home'
-import Card from './card';
-import JournalHome from './jounalsHome';
-import MemeGenerator from './meme/memeGenerator';
-import Thing from './thingEg/thing';
+
+
+
 
 import AiDoc from './AIDoc/AiDoc';
 
